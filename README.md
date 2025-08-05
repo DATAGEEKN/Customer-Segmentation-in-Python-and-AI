@@ -16,17 +16,3 @@ As data professionals, we know that effective customer segmentation isn't just a
 
 Traditional machine learning excels at the first step but often leaves data scientists struggling with the other two. This project shows how to solve all three.
 
-Project Workflow
-This project is broken down into three main Python scripts that execute in sequence:
-
-simulate_data.py: Generates a realistic, synthetic dataset of customer information, including demographics, spending habits, and engagement metrics.
-
-perform_segmentation.py: Takes the customer data and uses the K-Means clustering algorithm to identify distinct customer segments. It saves the segmented data and a visualization of the clusters.
-
-customer_segmentation_agent.py: This is where the magic happens. This script loads the segmented data, sends it to an AI model (like one from OpenAI or Google), and tasks the AI with:
-
-Analyzing the characteristics of each segment.
-
-Assigning a descriptive, human-readable name to each segment (e.g., "High-Value Tech Enthusiasts").
-
-Recommending specific, actionable marketing strategies for each segment.
